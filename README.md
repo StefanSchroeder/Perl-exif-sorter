@@ -3,12 +3,13 @@ Perl-exif-sorter
 
 Recursively search a directory hierarchy and copy|move images into folders named YYYY/MM based on EXIF-data.
 
-= Usage =
+Usage
+-----
 
 perl exif-sorter.pl /path/to/images
 
 will create folders in the current directory, e.g. 2012/01, 2012/02
-and so forth, an copy or move images or movies into these folders.
+and so forth, and copy or move images or movies into these folders.
 
 Supported file formats are
 

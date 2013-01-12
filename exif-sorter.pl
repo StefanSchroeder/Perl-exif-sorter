@@ -122,8 +122,7 @@ sub get_info
 
 	my $info = $exifTool->ImageInfo($name);
 	my $group = '';
-	my $tag;
-	foreach $tag ($exifTool->GetFoundTags('Group0')) 
+	foreach my $tag ($exifTool->GetFoundTags('Group0')) 
 	{
 		if ($group ne $exifTool->GetGroup($tag)) 
 		{

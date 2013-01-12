@@ -18,3 +18,4 @@ jp(e)g, mov and 3gp
 I will add command line options to choose copy or move. For images
 without EXIF information the folder unknown/unknown is created.
 
+This is GPLv3 software.
